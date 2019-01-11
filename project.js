@@ -739,7 +739,7 @@ function setStyle(){
 	            }
 	        },
             success: () => {
-                window.location = 'a5.html';
+                window.location = 'project.html';
             },
             error: () => {
                 $('.msg_div').empty();
@@ -759,7 +759,7 @@ function logout() {
 
         success: () => {
             console.log(username);
-            window.location = 'a5.html';
+            window.location = 'project.html';
         }
       });
 }
